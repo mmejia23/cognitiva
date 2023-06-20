@@ -1,0 +1,8 @@
+---
+title: "Inicio"
+author: "Manuel Mejía"
+format: html
+editor: visual
+---
+
+![](images/banner.png)

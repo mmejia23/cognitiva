@@ -1,0 +1,166 @@
+---
+title: "🔨 Método de trabajo"
+author: "Manuel Mejía, CETYS Universidad"
+format: 
+  html: default
+editor: visual
+toc: true
+toc-title: Índice
+---
+
+## 🔨 Cómo trabajar en esta materia
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: libraries
+library(readxl)
+library(knitr)
+#options(kableExtra.auto_format = FALSE)
+#library(kableExtra)
+```
+
+### 📖 Lecturas base
+
+-   Para esta materia utilizaremos principalmente los siguientes libros:
+    -   Eysenck, M. W., & Brysbaert, M. (2018). *Fundamentals of cognition (3rd ed.)*. Routledge.
+    -   Sternberg, R. J. (2011). *Psicología cognoscitiva*. CENGAGE Learning.
+    -   Sternberg, R. J. & Sternberg, K. (2012). *Cognitive psychology (6th ed.)*. CENGAGE Learning.
+    -   Vásquez Echeverría, A. (Ed.). (2015). *Manual de introducción a la psicología cognitiva*. UdelaR. Recuperado de https://cognicion.psico.edu.uy/
+
+
+
+### 🗒 Material complementario
+
+- Asociación Psicológica Americana (2021). *Manual de publicaciones (4ta Ed.)*. El Manual Moderno.
+- Fernández, H. (2013). *Lecciones de psicología cognitiva*. Universidad Abierta Interamericana. Libro electrónico disponible en http://ebiblio.cetys.mx:2081/lib/cetyssp/detail.action?docID=10832603&p00=psicologia+cog
+- Peña, M. J. A., Macías, N. N. I. y Morales, A. F L. (2011). *Manual de práctica básica: motivación y emoción*. Manual Moderno.
+- Smith, E. & Kosslyn, S. M. (2007). *Procesos cognitivos: modelos y bases neurales*. Pearson.
+- Crump, M. (2021). *Instances of cognition* [ebook]. https://crumplab.com/cognition/textbook/index.html
+- Morey, R. D. (2016). *How to write a well-structured essa*y. [Link](https://richarddmorey.medium.com/how-to-write-a-well-structured-essay-48a961cda42e).
+- **Otros recursos**:
+    - Bancos de información (EBSCO, ERIC, REDYLAC, etc.).
+    - Blackboard Learning System.
+    - Biblioteca Digital de CETYS: http://bibliotecadigital.cetys.mx/
+    - Recursos en internet del tipo: http://www.brainfacts.org/
+
+## ⛑ El trabajo de cada semana
+
+1. **Estudiar el capítulo del libro del tema de la semana.** Debes leer el material de cada unidad antes de llegar a la clase. Revisa el calendario de temas más abajo.
+2. **Ver videolecciones del tema de la semana.** Debes estudiar las videolecciones de cada tema antes de llegar a la clase de esa semana. Revisa las fechas en la página del tema correspondiente.
+3. **Responder el cuestionario de la semana**. Antes de llegar a clase, autoevaluarás tu conocimiento del tema revisado a través de un cuestionario breve sobre algunos de los conceptos del tema. Debes contestarlo antes de llegar a clase esa semana.
+4. **Durante cada clase:** se harán repasos y actividades diversas sobre los conceptos principales del capítulo, con tiempo para discusiones sobre los temas principales, y haciendo revisiones breves de casos o de escenarios relacionados con el tema de la unidad.
+    - Durante cada unidad, se realizarán actividades diversas, como pueden ser: presentaciones, análisis de casos, investigaciones documentales, lecturas de textos, rallies, resolución de actividades didácticas o juegos educativos, discusiones grupales, entre otros. El participar en estas actividades cuenta para la calificación de cada tema.
+5. **Plataforma**: Blackboard Ultra.
+
+## 🥗 Contenido de la materia
+
+1. **Tema 1: Fundamentos de psicología cognitiva.**
+    1. Antecedentes.
+    2. Principios de la psicología cognitiva.
+    3. Neurociencia cognitiva.
+    4. La cognición en el cerebro.
+2. **Tema 2: Percepción.**
+    1. De la sensación a la representación.
+    2. Constancia perceptiva.
+    3. Percepción de profundidad.
+    4. Percepción de objetos y formas.
+    5. Reconocimiento de patrones.
+    6. Orientaciones teóricas de la apercepción.
+    7. Déficits perceptivos.
+3. **Unidad 3: Atención.**
+    1. Proceso pre-consciente.
+    2. Procesos controlados vs procesos automáticos.
+    3. Detención de señales de atención.
+    4. Vigilancia y búsqueda.
+    5. Atención dividida y atención selectiva.
+    6. Consciencia de los procesos mentales complejos.
+    7. Déficits de atención y de la consciencia.
+4. **Tema 4: Memoria.**
+    1. Tareas utilizadas para la evaluación de la memoria.
+    2. Modelo tradicional de memoria y procesamiento.
+    3. Memoria de trabajo.
+    4. Sistema de memoria múltiple.
+    5. Procesos mnémicos.
+    6. Representaciones de la memoria: la imagen y la preposición.
+    7. Esquemas y redes.
+    8. Déficits de la memoria.
+5. **Tema 5: Lenguaje.**
+    1. Propiedades del lenguaje.
+    2. Aspectos fundamentales del lenguaje.
+    3. Procesos de comprensión lingüística.
+    4. Adquisición del lenguaje.
+    5. Lenguaje en contexto.
+    6. Lenguaje y pensamiento.
+    7. Lenguaje y contexto social.
+    8. Déficits del lenguaje.
+6. **Tema 6: Resolución de problemas, creatividad y toma de decisiones.**
+    1. Tipos de problemas.
+    2. Obstáculos y auxilios a la resolución de problemas.
+    3. Conocimiento y resolución.
+7. **Tema 7: Inteligencia.**
+    1. Medidas y estructuras de inteligencia.
+    2. Procesos de información e inteligencia.
+    3. Inteligencia artificial.
+
+## 👨‍🏫 Estrategias pedagógicas
+
+Apropiación de los contenidos. Para la facilitación de la apropiación de los contenidos se realizarán las siguientes actividades de aprendizaje:
+
+-   Individuales
+    -   Realización de investigaciones bibliográficas documentales y electrónicas.
+    -   Elaboración de sinopsis temáticas.
+    -   Participación en ejercicio de observación y cuantificación.
+    -   Corrección de ensayo de acuerdo a observaciones del docente.
+    -   Contestar guía de análisis del tema ética y medición.
+    -   Participación en el foro de discusión a través de Blackboard mediante aportación de información sobre procedimientos estadísticos.
+-   Grupales
+    -   Realización de ejercicios sobre obtención y sistematización de datos.
+    -   Realización de ejercicios que requieran procedimientos de procesamiento de datos.
+    -   Realización de ejercicios sobre comparación de datos.
+    -   Participación en el desarrollo de subtemas.
+
+
+## 📂 Las herramientas a usar para seguir la materia
+
+1.  **Blackboard Ultra.** Para el seguimiento y para enviar tus portafolios: ¡comienza aquí!
+    1.  Junto con Blackboard, usaremos **YouTube** y [**Perusall**](perusall.com) Para estudiar tus temas antes de cada clase.
+    2.  En caso de que quieras revisar los videos a mayor velocidad (recomendable entre 1.5 y 2x), puedes usar las herramientas mismas de YouTube o una extensión en Chrome: [Video Speed Manager](https://chrome.google.com/webstore/detail/video-speed-manager/fkopaaikpmfhpmoobnmklgmcgmhgfkcd/related).
+2.  **Esta página.** Haz un bookmark de esta página, pues aquí estarán las fechas y trabajos que haremos durante todo el semestre.
+3.  **Software**. Para realizar los análisis necesarios para cada práctica, necesitarás tener herramientas de Office, como Word y Excel. Usaremos también software especializado como [JASP](https://jasp-stats.org/download/) y [Jamovi](https://www.jamovi.org/download.html), o como [Google Colab](https://colab.research.google.com/?hl=es).
+4.  **Bases de datos**. La mayor parte de las prácticas se basará en unas pocas bases de datos de temas de actualidad. Aunque la base de datos a analizar pueda cambiar en cada práctica, la principal base que usaremos es la del proyecto de [Social Justice Sexuality](https://socialjusticesexuality.com/).
+    1.  Es el proyecto más grande que ha encuestado a personas de comunidades negrx, latinx, y de islas del Pacífico y Asia, de comunidades lesbiana, gay, bisexual y transgénero (LGBT).
+    2.  Cerca de 5,000 personas están representadas en la base, de los 50 estados de EEUU, Washington DC y Puerto Rico.
+    3.  De ámbitos rurales y suburbanos, además de áreas urbanas grandes, y de una variedad de edades, identidades raciales/étnicas, orientaciones sexuales, e identidades de género.
+
+## ☑️ Checklist para iniciar el semestre:
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: checklist
+checklist <- read_excel("2023-2.xlsx", sheet = "checklist")
+knitr::kable(checklist)
+```
+
+## 💬¿Cómo nos comunicaremos?
+
+::: callout-important
+## Usa Discord para comunicarte
+
+Acepta la invitación al [servidor de esta clase](https://discord.gg/ejj6MYMZ). O entra ya directo a [Discord](https://discord.com/channels/) si ya la aceptaste.
+:::
+
+-   Conéctate al grupo con Discord:
+    -   Da click [**aquí**](https://discord.gg/ejj6MYMZ) para entrar al lugar de trabajo de esta materia.
+    -   Usa tu nombre en tu usuario de Discord.
+    -   Personaliza tu usuario: utiliza una foto tuya, agrega una descripción.
+-   Reglas básicas para usar Discord:
+    -   Evita los mensajes directos (DMs) al profesor. Escribe en el canal #general.
+    -   Mantén tu comunicación respetuosa, profesional, amable y apropiada.
+    -   Trata de usar el canal #general para hacer preguntas (y para contestar preguntas de otras personas, si tienes la respuesta).
+    -   Usa el canal #varios para agregar cosas que no sean directamente relacionados con el tema en curso de la clase.
+    -   Usa el canal de tu grupo (#p2 o #2p) para temas al interior del grupo (como compartir algo específico para una clase).
+    -   Usa el canal #recomendaciones para recomendar series, películas, música, podcasts, etc., o encontrar recomendaciones.
+    -   Usa el canal de tu equipo (ejemplo #equipo1) para comunicarte durante y fuera de clases con tu equipo de clase. Aquí puedes compartir links, archivos, capturas de pantalla.
+

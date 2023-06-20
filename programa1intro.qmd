@@ -1,0 +1,44 @@
+---
+title: "📕 Presentación general"
+author: "Manuel Mejía, CETYS Universidad"
+format: 
+  html: default
+editor: visual
+toc: true
+toc-title: Índice
+---
+
+## 📕 Datos generales de la materia
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: libraries
+library(readxl)
+library(knitr)
+#options(kableExtra.auto_format = FALSE)
+#library(kableExtra)
+```
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: general
+general <- read_excel("2023-2.xlsx", sheet = "general")
+knitr::kable(general, col.names = c("", "", "", ""), format = "pipe")
+```
+
+------------------------------------------------------------------------
+
+## 🗣️ Presentación
+
+- La Psicología Cognitiva es una disciplina que se encuadra en el ámbito de las neurociencias, un área de conocimiento que permite analizar las bases biológicas del comportamiento. 
+- Se interesa por el estudio de los mecanismos cerebrales que controlan los procesos mentales superiores. 
+- Por tanto, es un campo de estudio necesario para la formación del psicólogo, que le va a permitir aplicar tal conocimiento en la solución de problemas cognitivos y conductuales. 
+- Debido a la naturaleza de las evidencias de desempeño, se planifican horas de trabajo independiente destinadas a que se promueva en forma sistemática la responsabilidad del estudiante en su propio proceso de aprendizaje, hecho que le permite aprender a aprender.
+
+::: callout-important
+## Al término del curso el/la estudiante:
+
+elaborará proyectos de solución de problemas y creatividad en los que se incluyan procesos de percepción, atención, consciencia, memoria, lenguaje e inteligencia.
+:::

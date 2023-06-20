@@ -1,0 +1,71 @@
+---
+title: "Cierre de Parcial 3"
+author: "Manuel Mejía, CETYS Universidad"
+format: html
+editor: visual
+toc: true
+toc-title: Índice
+editor_options: 
+  chunk_output_type: inline
+---
+
+![](images/banner-parcial3.jpeg){fig-align="center"}
+
+## 🗓️ Materiales y fechas
+
+```{r}
+#| warning: false
+#| echo: false
+library(readxl)
+library(knitr)
+options(knitr.kable.NA = '')
+#options(kableExtra.auto_format = FALSE)
+#library(kableExtra)
+```
+
+```{r}
+#| warning: false
+#| echo: false
+#| tbl-colwidths: [20, 20, 30, 30]
+parcial3 <- read_excel("2023-1.xlsx", sheet = "parcial3", range = cell_cols("B:E"))
+knitr::kable(parcial3, align = c("llll"))
+```
+
+## 💭 Reflexión ética
+
+**Lectura de casos:** Ritchie, S. (2020). **Chapter 5: Negligence**. En S. Ritchie (2020), "Science Fictions: how fraud, bias, negligence, and hype undermine the search for truth". Metropolitan. [**Descárgalo aquí.**](https://www.dropbox.com/s/la4j5o95te751ho/Ritchie%2C%20S%20-%202020%20-%20Science%20Fictions%20-%205%20Negligence.pdf?dl=0)
+
+------------------------------------------------------------------------
+
+## Exámenes finales
+
+Un examen teórico, y un examen práctico. Aplicados en días separados, de manera presencial.
+
+## Presentación de análisis de datos
+
+1.  Sobre el tema que has ido avanzando durante el semestre, que tú propusiste.
+2.  Trabajo individual.
+3.  Deberá realizarse una presentación (pendiente modo: video, oral, etc.).
+4.  Deberá entregarse el informe escrito con el archivo de análisis adjunto.
+
+------------------------------------------------------------------------
+
+## *Revisión de correcciones de prácticas*
+
+1.  En esta semana se espera que hayas terminado todas las prácticas realizadas hasta el momento.
+
+2.  El principal objetivo de esta semana es que tengamos oportunidad de repasar conceptos, temas, y análisis, de lo visto.
+
+3.  Durante esta semana son las fechas para terminar de corregir tus prácticas del parcial 3, y avanzar en la Presentación de análisis.
+
+## *Ejercicio integrador*
+
+1.  Durante esta semana es la fecha límite cuando se registrará la puntuación que hayas obtenido en tus cuestionarios. Recuerda que tienes número ilimitado de intentos para realizarlos, y que contará tu calificación más alta.
+
+2.  En el transcurso de la semana tu profesor estará revisando las prácticas corregidas, y la Presentación del análisis.
+
+3.  Durante esta semana, en clase, realizaremos un Ejercicio Integrador, que permitirá repasar los temas de la materia, y que sirva de preparación para los últimos exámenes.
+
+4.  La siguiente semana será de evaluación, por lo que se agendrán dos días: uno para el examen teórico, y otro para el práctico.
+
+------------------------------------------------------------------------

@@ -1,0 +1,92 @@
+---
+title: "Cierre de Parcial 1"
+author: "Manuel Mejía, CETYS Universidad"
+format: html
+editor: visual
+toc: true
+toc-title: Índice
+editor_options: 
+  chunk_output_type: inline
+---
+
+![](images/banner-parcial1.jpeg){fig-align="center"}
+
+## 🗓️ Materiales y fechas
+
+```{r}
+#| warning: false
+#| echo: false
+library(readxl)
+library(knitr)
+options(knitr.kable.NA = '')
+#options(kableExtra.auto_format = FALSE)
+#library(kableExtra)
+```
+
+```{r}
+#| warning: false
+#| echo: false
+#| tbl-colwidths: [20, 20, 30, 30]
+parcial1 <- read_excel("2023-1.xlsx", sheet = "parcial1", range = cell_cols("B:E"))
+knitr::kable(parcial1, align = c("llll"))
+```
+
+## 💭 Reflexión ética
+
+**Lectura de casos:** Poldrack, R. (2019). **Capítulo 17: Hacer investigación reproducible**. En R. Poldrack (2019), "Statistical thinking for the 21st century". **Descárgalo: en [PDF](https://www.dropbox.com/s/vb67awz7yvtgw9o/StatsThinking21_Hacer%20investigaci%C3%B3n%20reproducib.pdf?dl=0), o en [Web](https://statsthinking21.github.io/statsthinking21-core-spanish-site/doing-reproducible-research.html).**
+
+------------------------------------------------------------------------
+
+# 5️⃣ *Revisión de correcciones de prácticas*
+
+1.  En esta semana se espera que hayas terminado todas las prácticas realizadas hasta el momento.
+
+2.  El principal objetivo de esta semana es que tengamos oportunidad de repasar conceptos, temas, y análisis, de lo visto.
+
+3.  Durante esta semana son las fechas para terminar de corregir tus prácticas del parcial 1, haber entregado la Reflexión ética y el Avance del análisis, en los espacios indicados en Blackboard.
+
+4.  Durante esta semana también es la fecha límite cuando se registrará la puntuación que hayas obtenido en tus cuestionarios. Recuerda que tienes número ilimitado de intentos para realizarlos, y que contará tu calificación más alta.
+
+5.  En el transcurso de la semana tu profesor estará revisando las prácticas corregidas, y las Reflexiones éticas.
+
+6.  La siguiente semana comenzaremos con los contenidos del Parcial 2. Por lo que deberás dedicar tiempo también para leer la lectura indicada (**Capítulo 5, Ajustar modelos a los datos**) antes de llegar a la primera clase de la siguiente semana (claro, y contestar el cuestionario y prepararte para resolver la práctica).
+
++------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| **Clase 1:**                                                                                         | **Clase 2:**                                                                                                          |
++======================================================================================================+=======================================================================================================================+
+| 1.  Revisar status de **Práctica 04**.                                                               | 1.  **"Avance de Análisis". En equipos, registrar sus respuestas en su canal de Discord.**                            |
+|     1.  Revisar respuestas.                                                                          |     1.  ¿Qué temas encontraron en común en el equipo?                                                                 |
+|                                                                                                      |                                                                                                                       |
+|     2.  Archivos compartidos.                                                                        |     2.  Encontrar noticias recientes de al menos uno de los temas que pusieron de interés.                            |
+| 2.  ¿Dudas con entregas?                                                                             |                                                                                                                       |
+|     1.  Reflexión ética.                                                                             |     3.  Elegir una pregunta en equipo, y discutirla en Discord.                                                       |
+|                                                                                                      |                                                                                                                       |
+|     2.  Cuestionarios.                                                                               |     4.  ¿Qué tipos de datos necesitamos para contestarla? Buscar dónde podría haber datos y pegar enlaces en Discord. |
+|                                                                                                      | 2.  **Siguiente tema.**                                                                                               |
+|     3.  Avance de análisis.                                                                          |                                                                                                                       |
+| 3.  ***Fe de erratas** de la traducción del libro*.                                                  |                                                                                                                       |
+| 4.  **"Avance de Análisis". En equipos, registrar sus respuestas en su canal de Discord.**           |                                                                                                                       |
+|     1.  ¿Cuáles intereses anotaste en la última pregunta de la práctica 01?                          |                                                                                                                       |
+|                                                                                                      |                                                                                                                       |
+|     2.  ¿Hay algún tema que quieras explicar con más detalle?                                        |                                                                                                                       |
+|                                                                                                      |                                                                                                                       |
+|     3.  Revisen los Objetivos de Desarrollo Sostenible de la ONU, y vean cuáles ven más importantes: |                                                                                                                       |
+|                                                                                                      |                                                                                                                       |
+|     4.  <https://onu.org.gt/objetivos-de-desarrollo/>                                                |                                                                                                                       |
+|                                                                                                      |                                                                                                                       |
+|     5.  <https://www.undp.org/es/sustainable-development-goals>                                      |                                                                                                                       |
+|                                                                                                      |                                                                                                                       |
+|     6.  ¿Qué temas encontraron en común en el equipo?                                                |                                                                                                                       |
++------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+|                                                                                                      |                                                                                                                       |
++------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+
+: {tbl-colwidths="\[50, 50\]"}
+
+------------------------------------------------------------------------
+
+# Material complementario:
+
+1.  CrashCourse repasando la media, mediana y moda: [YouTube](https://www.youtube.com/watch?v=kn83BA7cRNM&list=PLH2l6uzC4UEW3iJO4T0qUeUEp_X-f1U7S&index=4).
+
+2.  Un video de CrashCourse repasa los puntajes Z y los percentiles (otra medida que hace cosas similares a los puntajes estandarizados): [YouTube](https://www.youtube.com/watch?v=uAxyI_XfqXk&ab_channel=CrashCourse).

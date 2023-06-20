@@ -1,0 +1,30 @@
+project: 
+  type: website
+  output-dir: "docs/2023-2/"
+  render:
+    - index.qmd
+    - programa1intro.qmd
+    - programa2trabajo.qmd
+    - programa3criterios.qmd
+
+website:
+  title: "Psicología Cognitiva"
+  site-url: https://mmejia23.github.io/cognitiva/
+  search: true
+  page-navigation: true
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Inicio"
+        file: index.qmd
+      - programa1intro.qmd
+      - programa2trabajo.qmd
+      - programa3criterios.qmd
+format: 
+  html:
+    theme: litera
+    link-external-newwindow: true
+    link-external-icon: true
+    
+lang: es

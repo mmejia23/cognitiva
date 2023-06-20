@@ -1,0 +1,77 @@
+---
+title: "Cierre de Parcial 2"
+author: "Manuel Mejía, CETYS Universidad"
+format: html
+editor: visual
+toc: true
+toc-title: Índice
+editor_options: 
+  chunk_output_type: inline
+---
+
+![](images/banner-parcial2.jpeg){fig-align="center"}
+
+## 🗓️ Materiales y fechas
+
+```{r}
+#| warning: false
+#| echo: false
+library(readxl)
+library(knitr)
+options(knitr.kable.NA = '')
+#options(kableExtra.auto_format = FALSE)
+#library(kableExtra)
+```
+
+```{r}
+#| warning: false
+#| echo: false
+#| tbl-colwidths: [20, 20, 30, 30]
+parcial2 <- read_excel("2023-1.xlsx", sheet = "parcial2", range = cell_cols("B:E"))
+knitr::kable(parcial2, align = c("llll"))
+```
+
+## 💭 Reflexión ética
+
+**Lectura de casos:** Ritchie, S. (2020). **Chapter 5: Negligence**. En S. Ritchie (2020), "Science Fictions: how fraud, bias, negligence, and hype undermine the search for truth". Metropolitan. [**Descárgalo aquí.**](https://www.dropbox.com/s/la4j5o95te751ho/Ritchie%2C%20S%20-%202020%20-%20Science%20Fictions%20-%205%20Negligence.pdf?dl=0)
+
+------------------------------------------------------------------------
+
+# *Revisión de correcciones de prácticas*
+
+1.  En esta semana se espera que hayas terminado todas las prácticas realizadas hasta el momento.
+
+2.  El principal objetivo de esta semana es que tengamos oportunidad de repasar conceptos, temas, y análisis, de lo visto.
+
+3.  Durante esta semana son las fechas para terminar de corregir tus prácticas del parcial 2, haber entregado la Reflexión ética y el Avance del análisis, en los espacios indicados en Blackboard.
+
+4.  Durante esta semana también es la fecha límite cuando se registrará la puntuación que hayas obtenido en tus cuestionarios. Recuerda que tienes número ilimitado de intentos para realizarlos, y que contará tu calificación más alta.
+
+5.  En el transcurso de la semana tu profesor estará revisando las prácticas corregidas, y las Reflexiones éticas.
+
+6.  La siguiente semana comenzaremos con los contenidos del Parcial 3. Por lo que deberás dedicar tiempo también para leer la lectura indicada (**Capítulo 12, Modelar relaciones categóricas**) antes de llegar a la primera clase de la siguiente semana (claro, y contestar el cuestionario y prepararte para resolver la práctica).
+
++--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| **Clase 1:**                                                                                     | **Clase 2:**                                                                               |
++==================================================================================================+============================================================================================+
+| 1.  Revisar status de **Práctica 10**.                                                           | 1.  **"Avance de Análisis". En equipos, registrar sus respuestas en su canal de Discord.** |
+| 2.  ¿Dudas con entregas?                                                                         |     1.  Continuación.                                                                      |
+|     1.  Reflexión ética.                                                                         | 2.  **Siguiente tema.**                                                                    |
+|                                                                                                  |                                                                                            |
+|     2.  Cuestionarios.                                                                           |                                                                                            |
+|                                                                                                  |                                                                                            |
+|     3.  Avance de análisis.                                                                      |                                                                                            |
+| 3.  ***Fe de erratas** de la traducción del libro*.                                              |                                                                                            |
+| 4.  **"Avance de Análisis". En equipos, registrar sus respuestas en su canal de Discord.**       |                                                                                            |
+|     1.  ¿Bases de datos que hayan encontrado? Anotar los detalles necesarios para su referencia. |                                                                                            |
+|                                                                                                  |                                                                                            |
+|     2.  ¿Pueden descargar las bases de datos y abrir en Excel o en JASP?                         |                                                                                            |
+|                                                                                                  |                                                                                            |
+|     3.  ¿Tienen el diccionario de variables apropiada para poder entender los datos?             |                                                                                            |
++--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+|                                                                                                  |                                                                                            |
++--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+: {tbl-colwidths="\[50, 50\]"}
+
+------------------------------------------------------------------------

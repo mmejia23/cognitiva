@@ -1,0 +1,170 @@
+---
+title: "💯 Criterios de evaluación"
+author: "Manuel Mejía, CETYS Universidad"
+format: 
+  html: default
+editor: visual
+toc: true
+toc-title: Índice
+---
+
+## 💯 Criterios de Evaluación
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: libraries
+library(readxl)
+library(knitr)
+#options(kableExtra.auto_format = FALSE)
+#library(kableExtra)
+```
+
+Para aprobar este curso debes cumplir con:
+
+-   un mínimo del **80% de asistencia** a las sesiones sincrónicas (recuerda que no hay justificación de faltas", sólo las que marque el reglamento),
+    -   **Llegadas tarde**: \>15 mins tarde: 1 falta; \>50 minutos tarde: 2 faltas.
+-   y una **calificación final mínima de 70,** según los criterios de evaluación.
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: criterios
+criterios <- read_excel("2023-2.xlsx", sheet = "criterios", range = cell_cols("A:D"))
+options(knitr.kable.NA = '')
+knitr::kable(criterios, align = c("l", "c", "c", "c"))
+```
+
+------------------------------------------------------------------------
+
+## 📆 Cronograma de temas
+
+Consulta el calendario escolar para planear tu semestre: https://www.cetys.mx/calendario-escolar/
+
+### 1️⃣ Parcial 1 {.unnumbered}
+
+```{r}
+#| warning: false
+#| echo: false
+#| tbl-colwidths: [20, 30, 50]
+#| label: parcial1
+parcial1 <- read_excel("2023-2.xlsx", sheet = "parcial1", range = cell_cols("A:C"))
+knitr::kable(parcial1, align = c("c", "c", "l", "l", "l"))
+```
+
+### 2️⃣ Parcial 2 {.unnumbered}
+
+```{r}
+#| warning: false
+#| echo: false
+#| tbl-colwidths: [20, 30, 50]
+#| label: parcial2
+parcial2 <- read_excel("2023-2.xlsx", sheet = "parcial2", range = cell_cols("A:C"))
+knitr::kable(parcial2, align = c("c", "c", "l"))
+```
+
+### 3️⃣ Parcial 3 {.unnumbered}
+
+```{r}
+#| warning: false
+#| echo: false
+#| tbl-colwidths: [20, 30, 50]
+#| label: parcial3
+parcial3 <- read_excel("2023-2.xlsx", sheet = "parcial3", range = cell_cols("A:C"))
+knitr::kable(parcial3, align = c("c", "c", "l"))
+```
+
+------------------------------------------------------------------------
+
+## 📑 Descripción de criterios de evaluación
+
+### Actividades en clase
+
+1. Para cada una de las 7 temáticas de la materia, 7 puntos corresponden a las diferentes actividades a realizar para esa temática (videolecciones, cuestionarios, prácticas, presentaciones, etc.), que se deben realizar antes y dentro de cada clase.
+2.	Para revisar los contenidos de las temáticas, se tendrán videolecciones en Edpuzzle.
+3.	Para cubrir este criterio, y obtener los puntos completos por cada unidad, cada estudiante deberá haber cubierto los videos (registrado en la plataforma), y haber contestado los cuestionarios de cada unidad con 100% de calificación. La calificación asignada será proporcional a lo obtenido en total en los cuestionarios, además de haber asistido a cada clase donde se haya realizado una actividad, haber participado en ella, haber mostrado una actitud positiva, de trabajo y respeto, y haber entregado las tareas asignadas dentro del tiempo asignado.
+4.	Los cuestionarios se pueden contestar la cantidad de veces que sea necesario por parte del estudiante, antes de la fecha límite indicada.
+
+### Exámenes parciales
+
+- 3 puntos corresponden a una evaluación (examen) de los contenidos de esa temática. Las evaluaciones se realizarán en las semanas de evaluación indicadas para ello.
+
+
+### Proyecto
+
+- Dos opciones:
+    - Un ensayo sobre la aplicación e importancia de la psicología cognitiva en la vida diaria, con base en los contenidos de la materia. 
+    - Traducción y revisión de un capítulo de un libro de psicología cognitiva.
+
+
+### Actitudes
+
+- Se evaluarán aspectos del trabajo en equipo, como: actitud, trabajo en equipo, roles y liderazgo, participación y uso del tiempo.
+- Tendrá un componente co-evaluado entre integrantes del equipo, y otro componente evaluado por el docente.
+
+
+### Evaluación final
+
+a.	Al final del semestre, en el periodo de la semana de evaluación, cada estudiante resolverá sincrónica y presencialmente un examen escrito que evaluará contenidos de las 7 temáticas de la materia. 
+
+
+## 📓 Rúbricas/Listas de cotejo
+
+::: panel-tabset
+
+## 💼 Actividades en clase
+
+```{r}
+#| warning: false
+#| echo: false
+#| tbl-colwidths: [20, 30, 50]
+#| label: actividades
+knitr::kable(parcial1, align = c("c", "c", "l", "l", "l"))
+```
+
+
+## 🧠 Actitudes
+
+```{r}
+#| warning: false
+#| echo: false
+#| tbl-colwidths: [20, 30, 50]
+#| label: actitudes
+knitr::kable(parcial2, align = c("c", "c", "l", "l", "l"))
+```
+
+## 📈 Proyecto
+
+```{r}
+#| warning: false
+#| echo: false
+#| tbl-colwidths: [20, 30, 50]
+#| label: proyecto
+knitr::kable(parcial3, align = c("c", "c", "l", "l", "l"))
+```
+
+:::
+
+
+
+## 😇 Integridad académica
+
+### Qué cuidar
+
+-   La integridad académica es parte de toda institución educativa de nivel superior, particularmente de CETYS Universidad, ya que fomenta la **honestidad en el trabajo académico** del estudiante.
+-   Será la **obligación de todos los estudiantes** mantener y fomentar una conducta ética durante el desarrollo de nuestra clase.
+-   Cualquier tipo de violación a los principios éticos e integridad de nuestra clase, será **sancionada** por constituir una **ofensa grave a la integridad académica**.
+-   La **cooperación mutua** entre docente y estudiantes ayudará en el cumplimiento exitoso con nuestra política de integridad académica y plagio.
+-   Por lo tanto, todo trabajo no original deberá ser debidamente citado utilizando el modelo APA.
+-   Y cada estudiante deberá realizar por sí mismo/a sus trabajos de la materia. Podrá pedir ayuda en cualquier punto del semestre, pero deberá ser su trabajo.
+-   Si el profesor identificara algún tipo de plagio, o cualquier otro tipo de acción deshonesta por parte de algún estudiante, se procederá a notificarle al coordinador del programa después de lo cual presentará las pruebas de manera oficial en busca de las sanciones correspondiente.
+-   Por lo tanto, todos los estudiantes deberán asumir responsabilidad de mantener la honestidad académica como parte importante en cada uno de sus trabajos.
+
+### Evitar el plagio
+
+::: callout-important
+## Según el Artículo 34 del Reglamento de Estudiantes de Programas de Licenciatura de CETYS Universidad:
+
+"Todo reporte de plagio, copia o suplantación en cualquier tipo de examen o actividad de apren-dizaje para fines de evaluación, será analizada acorde a los lineamientos del programa de integridad académicaprovocando una ayuda formativa de contención o corrección para el estudiante, la cual se hará constar en suexpediente. En función de la gravedad de la falta, el estudiante podría recibir la sanción correspondiente a sucaso pudiendo ser amonestación privada o reprobación de la actividad de aprendizaje o reprobación del curso.Si reincide y llega a reprobar un segundo curso por este motivo será dado de baja en forma definitiva".
+:::
+

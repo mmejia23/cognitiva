@@ -1,0 +1,20 @@
+project: 
+  type: book
+
+book:
+  title: "Psicología Cognitiva"
+  author: 
+    - name: "Manuel Mejía, CETYS Universidad"
+  search: true
+  chapters:
+    - index.qmd
+    - programa1intro.qmd
+    - programa2trabajo.qmd
+    - programa3criterios.qmd
+    
+format: 
+  pdf: 
+    toc: false
+    subtitle: "2023-2"
+
+lang: es
