@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Inicio",
+    "section": "",
+    "text": "Volver arriba"
+  },
+  {
     "objectID": "programa1intro.html",
     "href": "programa1intro.html",
     "title": "📕 Presentación general",
@@ -121,8 +128,29 @@
   {
     "objectID": "Tema-1.html",
     "href": "Tema-1.html",
-    "title": "Tema 1 - Fundamentos de psicología cognitiva",
+    "title": "1️⃣ Tema 1 - Fundamentos de psicología cognitiva",
     "section": "",
-    "text": "Página de Actividades"
+    "text": "Nota\n\n\n\nRecuerda que debes ingresar al enlace con tu cuenta de CETYS para poder acceder a las actividades.\n\n\nEnlace a página de Actividades"
+  },
+  {
+    "objectID": "Tema-1.html#actividades",
+    "href": "Tema-1.html#actividades",
+    "title": "1️⃣ Tema 1 - Fundamentos de psicología cognitiva",
+    "section": "",
+    "text": "Nota\n\n\n\nRecuerda que debes ingresar al enlace con tu cuenta de CETYS para poder acceder a las actividades.\n\n\nEnlace a página de Actividades"
+  },
+  {
+    "objectID": "Tema-2.html",
+    "href": "Tema-2.html",
+    "title": "2️⃣ Tema 2 - Percepción",
+    "section": "",
+    "text": "Nota\n\n\n\nRecuerda que debes ingresar al enlace con tu cuenta de CETYS para poder acceder a las actividades.\n\n\nEnlace a página de Actividades no disponible"
+  },
+  {
+    "objectID": "Tema-2.html#actividades",
+    "href": "Tema-2.html#actividades",
+    "title": "2️⃣ Tema 2 - Percepción",
+    "section": "",
+    "text": "Nota\n\n\n\nRecuerda que debes ingresar al enlace con tu cuenta de CETYS para poder acceder a las actividades.\n\n\nEnlace a página de Actividades no disponible"
   }
 ]

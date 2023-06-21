@@ -1,5 +1,5 @@
 ---
-title: "1️⃣ Tema 1 - Fundamentos de psicología cognitiva"
+title: "2️⃣ Tema 2 - Percepción"
 author: "Manuel Mej1a, CETYS Universidad"
 format: 
   html: default
@@ -14,5 +14,5 @@ Recuerda que debes ingresar al enlace con tu cuenta de CETYS para poder acceder 
 
 :::
 
-[Enlace a página de Actividades](https://docs.google.com/document/d/1CXBk1YogX76klCyccRD-33tem__jdN-fTljHZaRAO1o/edit?usp=drive_link)
+[Enlace a página de Actividades no disponible](https://docs.google.com/)
 

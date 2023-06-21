@@ -7,12 +7,14 @@ project:
     - programa2trabajo.qmd
     - programa3criterios.qmd
     - Tema-1.qmd
+    - Tema-2.qmd
 
 website:
   title: "Psicología Cognitiva"
   site-url: https://mmejia23.github.io/cognitiva/
   search: true
   page-navigation: true
+  back-to-top-navigation: true
   navbar:
     background: primary
     search: true
@@ -26,10 +28,10 @@ website:
     
   sidebar:
     - id: Title1
-      title: "Temas"
+      title: "📝 Temas"
       contents:
         - href: Tema-1.qmd
-        - href: Tema-1.qmd
+        - href: Tema-2.qmd
 format: 
   html:
     theme: litera

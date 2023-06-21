@@ -3,6 +3,7 @@ title: "Inicio"
 author: "Manuel Mejía"
 format: html
 editor: visual
+sidebar: false
 ---
 
 ![](images/banner.png)
