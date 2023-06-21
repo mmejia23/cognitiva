@@ -6,6 +6,7 @@ project:
     - programa1intro.qmd
     - programa2trabajo.qmd
     - programa3criterios.qmd
+    - Tema-1.qmd
 
 website:
   title: "Psicología Cognitiva"
@@ -21,6 +22,14 @@ website:
       - programa1intro.qmd
       - programa2trabajo.qmd
       - programa3criterios.qmd
+      - sidebar:Title1
+    
+  sidebar:
+    - id: Title1
+      title: "Temas"
+      contents:
+        - href: Tema-1.qmd
+        - href: Tema-1.qmd
 format: 
   html:
     theme: litera

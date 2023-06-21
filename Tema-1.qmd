@@ -1,0 +1,11 @@
+---
+title: "Tema 1 - Fundamentos de psicología cognitiva"
+author: "Manuel Mejía, CETYS Universidad"
+format: 
+  html: default
+editor: visual
+toc: false
+---
+
+[Página de Actividades](https://docs.google.com/document/d/1CXBk1YogX76klCyccRD-33tem__jdN-fTljHZaRAO1o/edit?usp=drive_link)
+
