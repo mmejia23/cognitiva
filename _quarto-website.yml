@@ -14,7 +14,7 @@ website:
   site-url: https://mmejia23.github.io/cognitiva/
   search: true
   page-navigation: true
-  favicon: images/brain-ai_256px.ico
+  favicon: images/brain_256px.ico
   navbar:
     background: primary
     search: true
