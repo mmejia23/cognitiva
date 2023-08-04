@@ -47,12 +47,11 @@ library(knitr)
 
 ## ⛑ El trabajo de cada semana
 
-1. **Estudiar el capítulo del libro del tema de la semana.** Debes leer el material de cada unidad antes de llegar a la clase. Revisa el calendario de temas más abajo.
-2. **Ver videolecciones del tema de la semana.** Debes estudiar las videolecciones de cada tema antes de llegar a la clase de esa semana. Revisa las fechas en la página del tema correspondiente.
-3. **Responder el cuestionario de la semana**. Antes de llegar a clase, autoevaluarás tu conocimiento del tema revisado a través de un cuestionario breve sobre algunos de los conceptos del tema. Debes contestarlo antes de llegar a clase esa semana.
+1. **Ver videolecciones del tema de la semana.** Debes estudiar las videolecciones de cada tema antes de llegar a la clase de esa semana. Cada videolección contiene un cuestionario, el cual deberás contestar mientras ves el video (las preguntas vienen integradas en el video). Revisa las fechas en la página del tema correspondiente.
+2. **Estudiar el capítulo del libro del tema de la semana.** Como apoyo a las videolecciones, lee el material de cada unidad para resolver tus dudas. Revisa el calendario de temas más abajo.
+3. **Responder el cuestionario de la semana**. Al final de cada semana, autoevaluarás tu conocimiento del tema revisado a través de un cuestionario breve sobre el tema. Deberás contestarlo dentro de las fechas límite para cada cuestionario: revisa Blackboard para eso.
 4. **Durante cada clase:** se harán repasos y actividades diversas sobre los conceptos principales del capítulo, con tiempo para discusiones sobre los temas principales, y haciendo revisiones breves de casos o de escenarios relacionados con el tema de la unidad.
     - Durante cada unidad, se realizarán actividades diversas, como pueden ser: presentaciones, análisis de casos, investigaciones documentales, lecturas de textos, rallies, resolución de actividades didácticas o juegos educativos, discusiones grupales, entre otros. El participar en estas actividades cuenta para la calificación de cada tema.
-5. **Plataforma**: Blackboard Ultra.
 
 ## 🥗 Contenido de la materia
 
@@ -69,7 +68,7 @@ library(knitr)
     5. Reconocimiento de patrones.
     6. Orientaciones teóricas de la apercepción.
     7. Déficits perceptivos.
-3. **Unidad 3: Atención.**
+3. **Tema 3: Atención.**
     1. Proceso pre-consciente.
     2. Procesos controlados vs procesos automáticos.
     3. Detención de señales de atención.
@@ -124,15 +123,21 @@ Apropiación de los contenidos. Para la facilitación de la apropiación de los 
 
 ## 📂 Las herramientas a usar para seguir la materia
 
-1.  **Blackboard Ultra.** Para el seguimiento y para enviar tus portafolios: ¡comienza aquí!
-    1.  Junto con Blackboard, usaremos **YouTube** y [**Perusall**](perusall.com) Para estudiar tus temas antes de cada clase.
+1.  **Blackboard Ultra.** Para el seguimiento de las videolecciones y el material a estudiar en cada Unidad ¡comienza aquí!
+    1.  Junto con Blackboard, usaremos **YouTube** y **Edpuzzle**. Dentro de Blackboard, cada videolección está publicada con Edpuzzle. Es dentro de esta herramienta donde estudiarás tus temas antes de cada clase.
     2.  En caso de que quieras revisar los videos a mayor velocidad (recomendable entre 1.5 y 2x), puedes usar las herramientas mismas de YouTube o una extensión en Chrome: [Video Speed Manager](https://chrome.google.com/webstore/detail/video-speed-manager/fkopaaikpmfhpmoobnmklgmcgmhgfkcd/related).
-2.  **Esta página.** Haz un bookmark de esta página, pues aquí estarán las fechas y trabajos que haremos durante todo el semestre.
-3.  **Software**. Para realizar los análisis necesarios para cada práctica, necesitarás tener herramientas de Office, como Word y Excel. Usaremos también software especializado como [JASP](https://jasp-stats.org/download/) y [Jamovi](https://www.jamovi.org/download.html), o como [Google Colab](https://colab.research.google.com/?hl=es).
-4.  **Bases de datos**. La mayor parte de las prácticas se basará en unas pocas bases de datos de temas de actualidad. Aunque la base de datos a analizar pueda cambiar en cada práctica, la principal base que usaremos es la del proyecto de [Social Justice Sexuality](https://socialjusticesexuality.com/).
-    1.  Es el proyecto más grande que ha encuestado a personas de comunidades negrx, latinx, y de islas del Pacífico y Asia, de comunidades lesbiana, gay, bisexual y transgénero (LGBT).
-    2.  Cerca de 5,000 personas están representadas en la base, de los 50 estados de EEUU, Washington DC y Puerto Rico.
-    3.  De ámbitos rurales y suburbanos, además de áreas urbanas grandes, y de una variedad de edades, identidades raciales/étnicas, orientaciones sexuales, e identidades de género.
+2.  **Esta página.** Haz un bookmark de esta página, pues aquí estarán las fechas y trabajos que haremos durante todo el semestre. Para acceder a las actividades de cada clase, deberás solicitar acceso a los documentos de GoogleDrive a tu docente. Utiliza tu cuenta institucional de CETYS para esto.
+3. **Herramientas para cada actividad**. Como realizaremos actividades diversas a lo largo del semestre, habrá más herramientas que usaremos. Conforme las vayamos usando, daremos tiempo para aprender a usarlas. Algunas de ellas son:
+    - Nearpod.
+    - Wordwall.
+    - Miro.
+    - Discord.
+    - Google Drive.
+    - Canva.
+    - Kahoot.
+    - Quizizz.
+    - Peardeck.
+    - Entre otras.
 
 ## ☑️ Checklist para iniciar el semestre:
 
@@ -147,21 +152,12 @@ knitr::kable(checklist)
 ## 💬¿Cómo nos comunicaremos?
 
 ::: callout-important
-## Usa Discord para comunicarte
+## Usa el correo y Blackboard para comunicarte
 
-Acepta la invitación al [servidor de esta clase](https://discord.gg/ejj6MYMZ). O entra ya directo a [Discord](https://discord.com/channels/) si ya la aceptaste.
+Para comunicarte con tu docente, usa el correo institucional de CETYS. Si no sabes cómo acceder a él, revisa [esta página](https://registro.cetys.edu.mx/). También puedes usar las herramientas de mensajes en Blackboard, o el espacio para Dudas.
 :::
 
--   Conéctate al grupo con Discord:
-    -   Da click [**aquí**](https://discord.gg/ejj6MYMZ) para entrar al lugar de trabajo de esta materia.
-    -   Usa tu nombre en tu usuario de Discord.
-    -   Personaliza tu usuario: utiliza una foto tuya, agrega una descripción.
--   Reglas básicas para usar Discord:
-    -   Evita los mensajes directos (DMs) al profesor. Escribe en el canal #general.
+-   Reglas básicas para usar mensajes:
     -   Mantén tu comunicación respetuosa, profesional, amable y apropiada.
-    -   Trata de usar el canal #general para hacer preguntas (y para contestar preguntas de otras personas, si tienes la respuesta).
-    -   Usa el canal #varios para agregar cosas que no sean directamente relacionados con el tema en curso de la clase.
-    -   Usa el canal de tu grupo (#p2 o #2p) para temas al interior del grupo (como compartir algo específico para una clase).
-    -   Usa el canal #recomendaciones para recomendar series, películas, música, podcasts, etc., o encontrar recomendaciones.
-    -   Usa el canal de tu equipo (ejemplo #equipo1) para comunicarte durante y fuera de clases con tu equipo de clase. Aquí puedes compartir links, archivos, capturas de pantalla.
+    -   Trata de usar el espacio para dudas en Blackboard para hacer preguntas (y para contestar preguntas de otras personas, si tienes la respuesta).
 

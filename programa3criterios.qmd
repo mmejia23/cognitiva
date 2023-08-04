@@ -9,6 +9,12 @@ toc-title: Índice
 sidebar: false
 ---
 
+Para aprobar este curso debes cumplir con:
+
+-   un mínimo del **80% de asistencia** a las sesiones sincrónicas (recuerda que no hay justificación de faltas", sólo las que marque el reglamento),
+    -   **Llegadas tarde**: \>15 mins tarde: 1 falta; \>50 minutos tarde: 2 faltas.
+-   y una **calificación final mínima de 70,** según los criterios de evaluación.
+
 ## 💯 Criterios de Evaluación
 
 ```{r}
@@ -21,11 +27,6 @@ library(knitr)
 #library(kableExtra)
 ```
 
-Para aprobar este curso debes cumplir con:
-
--   un mínimo del **80% de asistencia** a las sesiones sincrónicas (recuerda que no hay justificación de faltas", sólo las que marque el reglamento),
-    -   **Llegadas tarde**: \>15 mins tarde: 1 falta; \>50 minutos tarde: 2 faltas.
--   y una **calificación final mínima de 70,** según los criterios de evaluación.
 
 ```{r}
 #| warning: false
@@ -40,7 +41,7 @@ knitr::kable(criterios, align = c("l", "c", "c", "c"))
 
 ## 📆 Cronograma de temas
 
-Consulta el calendario escolar para planear tu semestre: https://www.cetys.mx/calendario-escolar/
+Consulta el [calendario escolar para planear tu semestre](https://www.cetys.mx/calendario-escolar/).
 
 ### 1️⃣ Parcial 1 {.unnumbered}
 
@@ -79,23 +80,40 @@ knitr::kable(parcial3, align = c("c", "c", "l"))
 
 ## 📑 Descripción de criterios de evaluación
 
-### Actividades en clase
+### Actividades de cada tema
 
-1. Para cada una de las 7 temáticas de la materia, 7 puntos corresponden a las diferentes actividades a realizar para esa temática (videolecciones, cuestionarios, prácticas, presentaciones, etc.), que se deben realizar antes y dentro de cada clase.
+1. Cada una de las 7 temáticas de la materia se evaluará con un total de 10 puntos por cada una.
+  - 7 puntos corresponden a las diferentes actividades a realizar para esa temática: videolecciones, cuestionarios, prácticas, presentaciones, etc., que se deben realizar antes, durante, o después de cada clase, según la instrucción apropiada.
 2.	Para revisar los contenidos de las temáticas, se tendrán videolecciones en Edpuzzle.
-3.	Para cubrir este criterio, y obtener los puntos completos por cada unidad, cada estudiante deberá haber cubierto los videos (registrado en la plataforma), y haber contestado los cuestionarios de cada unidad con 100% de calificación. La calificación asignada será proporcional a lo obtenido en total en los cuestionarios, además de haber asistido a cada clase donde se haya realizado una actividad, haber participado en ella, haber mostrado una actitud positiva, de trabajo y respeto, y haber entregado las tareas asignadas dentro del tiempo asignado.
-4.	Los cuestionarios se pueden contestar la cantidad de veces que sea necesario por parte del estudiante, antes de la fecha límite indicada.
+3.	Para cubrir este criterio, y obtener los puntos completos por cada unidad, cada estudiante deberá:
+  - haber cubierto los videos (registrado en la plataforma), 
+  - haber contestado los cuestionarios de cada unidad con 100% de calificación (la calificación asignada será proporcional a lo obtenido en total en los cuestionarios; se pueden contestar la cantidad de veces que sea necesario por parte del estudiante, antes de la fecha límite indicada), 
+  - haber asistido a cada clase donde se haya realizado una actividad, haber participado en ella, haber mostrado una actitud positiva, de trabajo y respeto, y haber entregado las tareas asignadas dentro del tiempo asignado.
 
 ### Exámenes parciales
 
-- 3 puntos corresponden a una evaluación (examen) de los contenidos de esa temática. Las evaluaciones se realizarán en las semanas de evaluación indicadas para ello.
+- Cada una de las 7 temáticas de la materia se evaluará con un total de 10 puntos por cada una.
+  - 3 puntos corresponden a una evaluación (examen) de los contenidos de esa temática. 
+  - Las evaluaciones se realizarán en las semanas de evaluación indicadas para ello, y serán presenciales.
 
 
 ### Proyecto
 
-- Dos opciones:
-    - Un ensayo sobre la aplicación e importancia de la psicología cognitiva en la vida diaria, con base en los contenidos de la materia. 
-    - Traducción y revisión de un capítulo de un libro de psicología cognitiva.
+- El proyecto final consistirá en una propuesta de aplicación.
+- La propuesta de aplicación deberá tener las siguientes características:
+  - Ser una propuesta de aplicación de la psicología cognitiva en un contexto real.
+  - Ser una propuesta de aplicación que pueda ser realizada por unx psicólogx cognitivx.
+  - Ser contextualizada en un escenario cercano a nuestra comunidad, p.ej., una empresa local, una escuela, el mismo CETYS, etc.
+  - Describir alguna problemática que pueda ser atendida con perspectivas o herramientas de la psicología cognitiva.
+  - Describir con suficiente información real el escenario donde se aplicará la propuesta.
+  - Fundamentar la propuesta en la teoría y evidencia científica de la psicología cognitiva.
+  - Haber investigado más información que la revisada en clase.
+  - Fundamentar con las referencias bibliográficas correspondientes.
+- Deberá prepararse para cumplir con las siguientes formas:
+  - Haber sido revisada y aprobada por el docente, en los momentos indicados en el calendario.
+  - Haber sido revisada por sus pares (compañerxs de grupo) en los momentos indicados en el calendario.
+  - Puede ser presentada en un formato de reporte escrito, o en una presentación oral videograbada.
+  - Cumplir con las fechas de entrega indicadas en este programa y en Blackboard.
 
 
 ### Actitudes
@@ -106,7 +124,7 @@ knitr::kable(parcial3, align = c("c", "c", "l"))
 
 ### Evaluación final
 
-a.	Al final del semestre, en el periodo de la semana de evaluación, cada estudiante resolverá sincrónica y presencialmente un examen escrito que evaluará contenidos de las 7 temáticas de la materia. 
+- Al final del semestre, en el periodo de la semana de evaluación, cada estudiante resolverá sincrónica y presencialmente un examen escrito que evaluará contenidos de las 7 temáticas de la materia.
 
 
 ## 📓 Rúbricas/Listas de cotejo
@@ -120,28 +138,26 @@ a.	Al final del semestre, en el periodo de la semana de evaluación, cada estudi
 #| echo: false
 #| tbl-colwidths: [20, 30, 50]
 #| label: actividades
-knitr::kable(parcial1, align = c("c", "c", "l", "l", "l"))
+rubricaActividades <- read_excel("2023-2.xlsx", sheet = "rubricaActividades", range = cell_cols("A:B"))
+knitr::kable(rubricaActividades, align = c("c", "l"))
 ```
 
 
 ## 🧠 Actitudes
 
-```{r}
-#| warning: false
-#| echo: false
-#| tbl-colwidths: [20, 30, 50]
-#| label: actitudes
-knitr::kable(parcial2, align = c("c", "c", "l", "l", "l"))
-```
+**Próximamente.**
 
 ## 📈 Proyecto
 
+**Próximamente.**
+
 ```{r}
 #| warning: false
 #| echo: false
 #| tbl-colwidths: [20, 30, 50]
-#| label: proyecto
-knitr::kable(parcial3, align = c("c", "c", "l", "l", "l"))
+#| label: proyectoFinal
+rubricaProyecto <- read_excel("2023-2.xlsx", sheet = "rubricaProyecto", range = cell_cols("A:C"))
+knitr::kable(rubricaProyecto, align = c("c", "l", "l"))
 ```
 
 :::
