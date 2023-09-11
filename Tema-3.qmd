@@ -1,0 +1,18 @@
+---
+title: "3️⃣ Tema 3 - Atención"
+author: "Manuel Mej1a, CETYS Universidad"
+format: 
+  html: default
+editor: visual
+toc: false
+---
+
+## 🔨⛏️🔩 Actividades
+
+::: callout-note
+Recuerda que debes ingresar al enlace con tu cuenta de CETYS para poder acceder a las actividades.
+
+:::
+
+[Enlace a página de Actividades](https://docs.google.com/document/d/17G1eLXpfeO8hLVGPvc60V0MVLtrnK-g7sF3n5gRIEOE/edit?usp=sharing)
+
