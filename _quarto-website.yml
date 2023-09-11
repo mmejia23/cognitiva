@@ -8,6 +8,7 @@ project:
     - programa3criterios.qmd
     - Tema-1.qmd
     - Tema-2.qmd
+    - Tema-3.qmd
 
 website:
   title: "Psicología Cognitiva"
