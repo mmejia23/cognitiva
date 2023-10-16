@@ -1,0 +1,18 @@
+---
+title: "5️⃣ Tema 5 - Lenguaje"
+author: "Manuel Mej1a, CETYS Universidad"
+format: 
+  html: default
+editor: visual
+toc: false
+---
+
+## 🔨⛏️🔩 Actividades
+
+::: callout-note
+Recuerda que debes ingresar al enlace con tu cuenta de CETYS para poder acceder a las actividades.
+
+:::
+
+[Enlace a página de Actividade](https://docs.google.com/document/d/1yAYx-2P-_KPtW6LCccffBSCw6dyg0Q-oPVJSF62HYxs/edit?usp=sharing)
+
