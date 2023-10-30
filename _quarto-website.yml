@@ -11,6 +11,7 @@ project:
     - Tema-3.qmd
     - Tema-4.qmd
     - Tema-5.qmd
+    - Tema-6.qmd
 
 website:
   title: "Psicología Cognitiva"
@@ -38,6 +39,7 @@ website:
         - href: Tema-3.qmd
         - href: Tema-4.qmd
         - href: Tema-5.qmd
+        - href: Tema-6.qmd
 format: 
   html:
     theme: litera

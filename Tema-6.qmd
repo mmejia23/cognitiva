@@ -1,0 +1,18 @@
+---
+title: "6️⃣ Tema 6 - Solución de Problemas"
+author: "Manuel Mej1a, CETYS Universidad"
+format: 
+  html: default
+editor: visual
+toc: false
+---
+
+## 🔨⛏️🔩 Actividades
+
+::: callout-note
+Recuerda que debes ingresar al enlace con tu cuenta de CETYS para poder acceder a las actividades.
+
+:::
+
+[Enlace a página de Actividades](https://docs.google.com/document/d/1TnLNJDFxm97Rq05RoNo1Z1wH39cfBoSGWF7JlrZHXoU/edit?usp=sharing)
+

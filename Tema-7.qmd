@@ -1,0 +1,18 @@
+---
+title: "7️⃣ Tema 7 - Inteligencia"
+author: "Manuel Mej1a, CETYS Universidad"
+format: 
+  html: default
+editor: visual
+toc: false
+---
+
+## 🔨⛏️🔩 Actividades
+
+::: callout-note
+Recuerda que debes ingresar al enlace con tu cuenta de CETYS para poder acceder a las actividades.
+
+:::
+
+[Enlace a página de Actividades](https://docs.google.com/document/d/1jM3DhR664E2QBEEKbLRTcB5k3rR18aM-OqjkP7RZG0c/edit?usp=sharing)
+
