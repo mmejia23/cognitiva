@@ -145,7 +145,7 @@ Apropiación de los contenidos. Para la facilitación de la apropiación de los 
 #| warning: false
 #| echo: false
 #| label: checklist
-checklist <- read_excel("2023-2.xlsx", sheet = "checklist")
+checklist <- read_excel("Course_data.xlsx", sheet = "checklist")
 knitr::kable(checklist)
 ```
 

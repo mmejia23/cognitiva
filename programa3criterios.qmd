@@ -32,7 +32,7 @@ library(knitr)
 #| warning: false
 #| echo: false
 #| label: criterios
-criterios <- read_excel("2023-2.xlsx", sheet = "criterios", range = cell_cols("A:D"))
+criterios <- read_excel("Course_data.xlsx", sheet = "criterios", range = cell_cols("A:D"))
 options(knitr.kable.NA = '')
 knitr::kable(criterios, align = c("l", "c", "c", "c"))
 ```
@@ -50,7 +50,7 @@ Consulta el [calendario escolar para planear tu semestre](https://www.cetys.mx/c
 #| echo: false
 #| tbl-colwidths: [20, 30, 50]
 #| label: parcial1
-parcial1 <- read_excel("2023-2.xlsx", sheet = "parcial1", range = cell_cols("A:C"))
+parcial1 <- read_excel("Course_data.xlsx", sheet = "parcial1", range = cell_cols("A:C"))
 knitr::kable(parcial1, align = c("c", "c", "l", "l", "l"))
 ```
 
@@ -61,7 +61,7 @@ knitr::kable(parcial1, align = c("c", "c", "l", "l", "l"))
 #| echo: false
 #| tbl-colwidths: [20, 30, 50]
 #| label: parcial2
-parcial2 <- read_excel("2023-2.xlsx", sheet = "parcial2", range = cell_cols("A:C"))
+parcial2 <- read_excel("Course_data.xlsx", sheet = "parcial2", range = cell_cols("A:C"))
 knitr::kable(parcial2, align = c("c", "c", "l"))
 ```
 
@@ -72,7 +72,7 @@ knitr::kable(parcial2, align = c("c", "c", "l"))
 #| echo: false
 #| tbl-colwidths: [20, 30, 50]
 #| label: parcial3
-parcial3 <- read_excel("2023-2.xlsx", sheet = "parcial3", range = cell_cols("A:C"))
+parcial3 <- read_excel("Course_data.xlsx", sheet = "parcial3", range = cell_cols("A:C"))
 knitr::kable(parcial3, align = c("c", "c", "l"))
 ```
 
@@ -138,7 +138,7 @@ knitr::kable(parcial3, align = c("c", "c", "l"))
 #| echo: false
 #| tbl-colwidths: [20, 30, 50]
 #| label: actividades
-rubricaActividades <- read_excel("2023-2.xlsx", sheet = "rubricaActividades", range = cell_cols("A:B"))
+rubricaActividades <- read_excel("Course_data.xlsx", sheet = "rubricaActividades", range = cell_cols("A:B"))
 knitr::kable(rubricaActividades, align = c("c", "l"))
 ```
 
@@ -156,7 +156,7 @@ knitr::kable(rubricaActividades, align = c("c", "l"))
 #| echo: false
 #| tbl-colwidths: [20, 30, 50]
 #| label: proyectoFinal
-rubricaProyecto <- read_excel("2023-2.xlsx", sheet = "rubricaProyecto", range = cell_cols("A:C"))
+rubricaProyecto <- read_excel("Course_data.xlsx", sheet = "rubricaProyecto", range = cell_cols("A:C"))
 knitr::kable(rubricaProyecto, align = c("c", "l", "l"))
 ```
 

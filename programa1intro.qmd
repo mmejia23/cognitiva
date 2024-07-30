@@ -25,7 +25,7 @@ library(knitr)
 #| warning: false
 #| echo: false
 #| label: general
-general <- read_excel("2023-2.xlsx", sheet = "general")
+general <- read_excel("Course_data.xlsx", sheet = "general")
 knitr::kable(general, col.names = c("", "", "", ""), format = "pipe")
 ```
 

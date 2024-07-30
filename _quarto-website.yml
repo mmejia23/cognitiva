@@ -1,6 +1,6 @@
 project: 
   type: website
-  output-dir: "docs/2023-2/"
+  output-dir: "docs/2024-2/"
   render:
     - index.qmd
     - programa1intro.qmd
@@ -37,11 +37,11 @@ website:
       contents:
         - href: Tema-1.qmd
         - href: Tema-2.qmd
-        - href: Tema-3.qmd
-        - href: Tema-4.qmd
-        - href: Tema-5.qmd
-        - href: Tema-6.qmd
-        - href: Tema-7.qmd
+#        - href: Tema-3.qmd
+#        - href: Tema-4.qmd
+#        - href: Tema-5.qmd
+#        - href: Tema-6.qmd
+#        - href: Tema-7.qmd
 format: 
   html:
     theme: litera
