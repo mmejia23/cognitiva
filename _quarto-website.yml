@@ -39,9 +39,9 @@ website:
         - href: Tema-2.qmd
         - href: Tema-3.qmd
         - href: Tema-4.qmd
-#        - href: Tema-5.qmd
-#        - href: Tema-6.qmd
-#        - href: Tema-7.qmd
+        - href: Tema-5.qmd
+        - href: Tema-6.qmd
+        - href: Tema-7.qmd
 format: 
   html:
     theme: litera
